@@ -391,6 +391,60 @@ ol:last-child {
   margin: 0 auto;
 }
 
+.content-layout {
+  display: grid;
+  align-items: start;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  grid-template-columns: minmax(11rem, 14rem) minmax(0, 1fr);
+}
+
+.content-main {
+  min-width: 0;
+}
+
+.section-toc {
+  position: sticky;
+  top: 6.5rem;
+  margin-top: clamp(4.5rem, 8vw, 7rem);
+  padding: 1.2rem 1.25rem 1.35rem;
+  background: var(--paper-warm);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-md);
+}
+
+.section-toc-title {
+  margin-bottom: 0.55rem;
+  color: var(--rust);
+  font-size: 0.74rem;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.section-toc nav {
+  display: grid;
+}
+
+.section-toc a {
+  padding: 0.58rem 0;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  font-size: 0.91rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.section-toc a:hover,
+.section-toc a:focus-visible {
+  color: var(--link-hover);
+}
+
+.section-heading[id] {
+  scroll-margin-top: 6.5rem;
+}
+
 .profile-grid {
   display: grid;
   padding: clamp(4.5rem, 8vw, 7rem) 0;
@@ -718,6 +772,21 @@ iframe[title*="Curriculum"] {
     width: min(calc(100% - 2rem), var(--content-width));
   }
 
+  .content-layout {
+    gap: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .section-toc {
+    position: static;
+    margin-top: 2.5rem;
+  }
+
+  .section-toc nav {
+    gap: 0 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .profile-grid {
     grid-template-columns: minmax(12rem, 17rem) minmax(0, 1fr);
     gap: 2.4rem;
@@ -788,6 +857,10 @@ iframe[title*="Curriculum"] {
     padding: 4rem 0;
   }
 
+  .section-toc nav {
+    grid-template-columns: 1fr;
+  }
+
   .two-column {
     grid-template-columns: 1fr;
   }
@@ -848,6 +921,7 @@ iframe[title*="Curriculum"] {
   .site-footer,
   .skip-link,
   .nav-toggle,
+  .section-toc,
   .button-row,
   .social-links,
   .cv-viewer,
