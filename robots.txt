@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huchenshan2020-glitch.github.io/sitemap.xml
