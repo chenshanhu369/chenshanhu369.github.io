@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://huchenshan2020-glitch.github.io/sitemap.xml
+Sitemap: https://chenshanhu369.github.io/sitemap.xml

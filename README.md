@@ -1,6 +1,6 @@
 # Chenshan Hu — Academic Website
 
-Static source for [huchenshan2020-glitch.github.io](https://huchenshan2020-glitch.github.io/), hosted with GitHub Pages.
+Static source for [chenshanhu369.github.io](https://chenshanhu369.github.io/), hosted with GitHub Pages.
 
 The site has no build step, framework, database, analytics tracker, or server-side dependency. Every page is ordinary HTML with one shared stylesheet and a small accessibility-focused navigation script.
 
@@ -57,7 +57,7 @@ Then open `http://localhost:8000/`. Test the home page, all navigation links, th
 
 ## Publish with GitHub Pages
 
-The repository name must remain `huchenshan2020-glitch.github.io`. In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and publish from `/ (root)`. Commits pushed to `main` will then update the public site.
+The repository name must remain `chenshanhu369.github.io`. In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and publish from `/ (root)`. Commits pushed to `main` will then update the public site.
 
 ## License
 
