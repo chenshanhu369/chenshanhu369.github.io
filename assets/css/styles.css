@@ -261,13 +261,13 @@ ol:last-child {
   overflow: hidden;
   color: #fff8ed;
   background-color: var(--charcoal);
-  background-image: linear-gradient(90deg, rgba(74, 20, 31, 0.18), rgba(74, 20, 31, 0.08)), url("../images/research-hero-burgundy.jpg");
+  background-image: linear-gradient(90deg, rgba(74, 20, 31, 0.18), rgba(74, 20, 31, 0.08)), url("../images/research-hero-ai.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .hero {
-  min-height: clamp(29rem, 58vw, 39rem);
+  min-height: clamp(15rem, 32vw, 22rem);
 }
 
 .hero::before,
@@ -297,7 +297,7 @@ ol:last-child {
   min-height: inherit;
   width: min(calc(100% - 3rem), var(--content-width));
   margin: 0 auto;
-  padding: clamp(5rem, 11vw, 8.5rem) 0;
+  padding: clamp(4rem, 8vw, 6rem) 0;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -830,12 +830,12 @@ iframe[title*="Curriculum"] {
   }
 
   .hero {
-    min-height: 31rem;
+    min-height: clamp(15rem, 32vw, 22rem);
     background-position: center;
   }
 
   .hero-inner {
-    padding: 4.5rem 0;
+    padding: 3rem 0;
   }
 
   .hero h1 {

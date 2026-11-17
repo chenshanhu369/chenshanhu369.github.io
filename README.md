@@ -19,7 +19,8 @@ The site has no build step, framework, database, analytics tracker, or server-si
 │   │   ├── profile.jpg        # Profile photograph
 │   │   ├── favicon.svg        # Site icon
 │   │   ├── research-hero.jpg           # Previous charcoal hero background
-│   │   └── research-hero-burgundy.jpg  # Current formal burgundy hero background
+│   │   ├── research-hero-burgundy.jpg  # Previous burgundy hero background
+│   │   └── research-hero-ai.jpg        # Current AI-focused burgundy hero background
 │   └── js/main.js             # Mobile navigation only
 ├── files/chenshan-hu-cv.pdf   # Downloadable CV
 ├── robots.txt
